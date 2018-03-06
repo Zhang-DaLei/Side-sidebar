@@ -1,0 +1,42 @@
+.div_hide  {
+	background: white;
+	position: fixed;
+	z-index:1000;
+	overflow: hidden;
+}
+
+.div_hide  span {
+	display: block;
+	position: relative;
+	padding-top: 4px;
+}
+
+.div_hide  .fixed-icon {
+	padding: 5px;
+	position: absolute;
+	top:0;
+	right:0;
+	cursor: pointer;
+	font-style: normal;
+	font-size: 16px;
+}
+.div_hide  .sp_left_table
+{
+    float : left;
+}
+.div_hide .sp_left_title
+{
+    width : 26px;
+    height:100%;
+	float:right;
+}
+.div_hide  .sp_right_table
+{
+	float:right;
+}
+.div_hide  .sp_right_title
+{
+    width : 26px;
+    height:100%;
+	float:left;
+}

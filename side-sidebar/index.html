@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style/guanXianTu.css">
+    <link rel="stylesheet" type="text/css" href="./font/iconfont.css">
+    <title>Document</title>
+</head>
+<body style="background: #000">
+    <div id="autoHide_div">
+            
+		<span class="title">Hello wrold<i class="fixed-icon iconfont icon-pin" title="固定表格"></i></span>
+        <div>这里可以是div，ul，table等</div>
+	</div>
+</body>
+<script src="./style/jquery.min.js"></script>
+<script src="./style/div_hide.js"></script>
+
+<script>
+    window.onload=function(){
+        var auto = new AutoHide_div_cz_down_left({
+            el: '#autoHide_div',
+            view_line_height: 8,
+        });
+	    auto.init();
+    }
+</script>
+</html>
