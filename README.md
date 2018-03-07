@@ -16,6 +16,8 @@
 
 ### 容器
 
+#### 样式一
+
 ``` bash
 <div id="autoHide_div">  // 外部容器      
   <span class="title">Hello wrold // 标题
@@ -25,7 +27,12 @@
 </div>
 注：此布局适用于（AutoHide_div_cz_down_left，AutoHide_div_cz_down_right，AutoHide_div_sp_left_down，AutoHide_div_sp_right_down）
 
-<div id="autoHide_div">  // 外部容器      
+``` 
+
+#### 样式二
+
+``` bash
+<div id="autoHide_div">  // 外部容器      
   <div>这里可以是div，ul，table等自定义内容</div> //自定义内容
   <span class="title">Hello wrold // 标题
     <i class="fixed-icon" title="固定表格"></i> // 固定侧边栏按钮 （按钮样式自行添加）
@@ -34,6 +41,7 @@
 注：此布局适用于（AutoHide_div_cz_up_left，AutoHide_div_cz_up_right，AutoHide_div_sp_left_up，AutoHide_div_sp_right_up）
 
 ``` 
+
 
 ### 初始化
 
