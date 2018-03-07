@@ -24,6 +24,7 @@
   <div>这里可以是div，ul，table等自定义内容</div> //自定义内容
 </div>
 注：此布局适用于（AutoHide_div_cz_down_left，AutoHide_div_cz_down_right，AutoHide_div_sp_left_down，AutoHide_div_sp_right_down）
+
 <div id="autoHide_div">  // 外部容器      
   <div>这里可以是div，ul，table等自定义内容</div> //自定义内容
   <span class="title">Hello wrold // 标题
@@ -55,3 +56,4 @@ auto.init();
 
 ``` bash
 new AutoHide_div_cz_down_left //垂直方向-左下角
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_cz_down_left.gif)
