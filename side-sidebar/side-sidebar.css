@@ -8,7 +8,7 @@
 .div_hide  span {
 	display: block;
 	position: relative;
-	padding-top: 4px;
+	padding: 4px 0;
 }
 
 .div_hide  .fixed-icon {

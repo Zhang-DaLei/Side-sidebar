@@ -3,7 +3,8 @@ function AutoHide_div(el,view_line_height,body_color,head_color,fixedIcon_bgcolo
 	this.div = $(el);
 	this.se_span = this.div.children('span');
 	this.se_fixedIcon = this.se_span.children('.fixed-icon');
-	this.title_height = 24; // 标题的高度
+	this.box_height=this.div.innerHeight();
+	this.title_height = 30; // 标题的高度
 	this.is_show = false;
 	this.body_color=body_color; // 容器背景颜色
 	this.head_color=head_color; // 标题背景颜色
@@ -51,7 +52,7 @@ AutoHide_div.prototype.flash = function()
 {
 	this.status(false);
 }
-AutoHide_div.prototype.init = function()
+AutoHide_div.prototype.init = function(flag)
 {
 	var o_ob = this;
 	if(this.body_color)
@@ -62,10 +63,14 @@ AutoHide_div.prototype.init = function()
 	{
 		this.se_span.css('background',this.head_color);
 	}
+	if(flag)
+	{
+		this.se_span.css('height',this.box_height);
+	}
 	this.div.addClass('div_hide');
 	this.i_hide();
 	this.flash();
-
+	
 	this.se_span.bind('mousemove', function()
 	{
 		o_ob.div_show(true);
@@ -284,7 +289,7 @@ AutoHide_div_sp.prototype.constructor = AutoHide_div_sp;
 
 AutoHide_div_sp.prototype.init = function()
 {
-	this.AutoHide_div_prototype.init.call(this);
+	this.AutoHide_div_prototype.init.call(this,true);
 }
 
 AutoHide_div_sp.prototype.get_line_length = function()
