@@ -62,8 +62,50 @@ auto.init();
 ![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_cz_down_left.gif)
 
 ``` bash
-2.new AutoHide_div_cz_down_right //垂直方向-左下角
+2.new AutoHide_div_cz_down_right //垂直方向-右下角
+
+``` 
 
 ![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_cz_down_right.gif)
 
+``` bash
+3.new AutoHide_div_cz_up_left //垂直方向-左上角
+
 ``` 
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_cz_up_left.gif)
+
+``` bash
+4.new AutoHide_div_cz_up_right //垂直方向-右下角
+
+``` 
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_cz_up_right.gif)
+
+``` bash
+5.new AutoHide_div_sp_left_down //水平方向-左下角
+
+``` 
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_sp_left_down.gif)
+
+``` bash
+6.new AutoHide_div_sp_left_up //水平方向-左上角
+
+``` 
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_sp_left_up.gif)
+
+``` bash
+7.new AutoHide_div_sp_right_down //水平方向-右下角
+
+``` 
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_sp_right_down.gif)
+
+``` bash
+8.new AutoHide_div_sp_right_up //水平方向-右上角
+
+``` 
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_sp_right_up.gif)
