@@ -52,8 +52,11 @@ auto.init();
 
 ## 文档说明
 
-## 对象说明
+### 对象说明
 
+``` bash
 new AutoHide_div_cz_down_left //垂直方向-左下角
 
 ![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_cz_down_left.gif)
+
+``` 
