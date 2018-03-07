@@ -55,9 +55,15 @@ auto.init();
 ### 对象说明
 
 ``` bash
-new AutoHide_div_cz_down_left //垂直方向-左下角
+1.new AutoHide_div_cz_down_left //垂直方向-左下角
 
 ``` 
 
 ![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_cz_down_left.gif)
 
+``` bash
+2.new AutoHide_div_cz_down_right //垂直方向-左下角
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_cz_down_right.gif)
+
+``` 
