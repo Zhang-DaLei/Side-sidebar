@@ -16,6 +16,8 @@
 
 ### 容器
 
+#### 样式一
+
 ``` bash
 <div id="autoHide_div">  // 外部容器      
   <span class="title">Hello wrold // 标题
@@ -24,7 +26,13 @@
   <div>这里可以是div，ul，table等自定义内容</div> //自定义内容
 </div>
 注：此布局适用于（AutoHide_div_cz_down_left，AutoHide_div_cz_down_right，AutoHide_div_sp_left_down，AutoHide_div_sp_right_down）
-<div id="autoHide_div">  // 外部容器      
+
+``` 
+
+#### 样式二
+
+``` bash
+<div id="autoHide_div">  // 外部容器      
   <div>这里可以是div，ul，table等自定义内容</div> //自定义内容
   <span class="title">Hello wrold // 标题
     <i class="fixed-icon" title="固定表格"></i> // 固定侧边栏按钮 （按钮样式自行添加）
@@ -33,6 +41,7 @@
 注：此布局适用于（AutoHide_div_cz_up_left，AutoHide_div_cz_up_right，AutoHide_div_sp_left_up，AutoHide_div_sp_right_up）
 
 ``` 
+
 
 ### 初始化
 
@@ -51,7 +60,60 @@ auto.init();
 
 ## 文档说明
 
-## 对象说明
+### 对象说明
 
 ``` bash
-new AutoHide_div_cz_down_left //垂直方向-左下角
+1.new AutoHide_div_cz_down_left //垂直方向-左下角
+
+``` 
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_cz_down_left.gif)
+
+``` bash
+2.new AutoHide_div_cz_down_right //垂直方向-右下角
+
+``` 
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_cz_down_right.gif)
+
+``` bash
+3.new AutoHide_div_cz_up_left //垂直方向-左上角
+
+``` 
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_cz_up_left.gif)
+
+``` bash
+4.new AutoHide_div_cz_up_right //垂直方向-右下角
+
+``` 
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_cz_up_right.gif)
+
+``` bash
+5.new AutoHide_div_sp_left_down //水平方向-左下角
+
+``` 
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_sp_left_down.gif)
+
+``` bash
+6.new AutoHide_div_sp_left_up //水平方向-左上角
+
+``` 
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_sp_left_up.gif)
+
+``` bash
+7.new AutoHide_div_sp_right_down //水平方向-右下角
+
+``` 
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_sp_right_down.gif)
+
+``` bash
+8.new AutoHide_div_sp_right_up //水平方向-右上角
+
+``` 
+
+![image](https://github.com/Zhang-DaLei/Side-sidebar/blob/master/side-sidebar/img/AutoHide_div_sp_right_up.gif)
