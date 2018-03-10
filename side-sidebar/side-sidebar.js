@@ -140,7 +140,6 @@ function AutoHide_div_cz(el,view_line_height,body_color,head_color,fixedIcon_bgc
 }
 
 AutoHide_div_cz.prototype = new AutoHide_div();
-AutoHide_div_cz.prototype.AutoHide_div_prototype = AutoHide_div_cz.prototype.constructor.prototype;
 AutoHide_div_cz.prototype.constructor = AutoHide_div_cz;
 
 AutoHide_div_cz.prototype.init = function()
@@ -162,7 +161,6 @@ function AutoHide_div_cz_up(el,view_line_height,body_color,head_color,fixedIcon_
 }
 
 AutoHide_div_cz_up.prototype = new AutoHide_div_cz();
-AutoHide_div_cz_up.prototype.AutoHide_div_cz_prototype = AutoHide_div_cz_up.prototype.constructor.prototype;
 AutoHide_div_cz_up.prototype.constructor = AutoHide_div_cz_up;
 
 AutoHide_div_cz_up.prototype.get_show_css = function()
@@ -183,7 +181,6 @@ function AutoHide_div_cz_up_left({el,view_line_height,body_color,head_color,fixe
 }
 
 AutoHide_div_cz_up_left.prototype = new AutoHide_div_cz_up();
-AutoHide_div_cz_up_left.prototype.AutoHide_div_cz_up_prototype = AutoHide_div_cz_up_left.prototype.constructor.prototype;
 AutoHide_div_cz_up_left.prototype.constructor = AutoHide_div_cz_up_left;
 
 AutoHide_div_cz_up_left.prototype.get_hide_css = function()
@@ -201,7 +198,6 @@ function AutoHide_div_cz_up_right({el,view_line_height,body_color,head_color,fix
 }
 
 AutoHide_div_cz_up_right.prototype = new AutoHide_div_cz_up();
-AutoHide_div_cz_up_right.prototype.AutoHide_div_cz_up_prototype = AutoHide_div_cz_up_right.prototype.constructor.prototype;
 AutoHide_div_cz_up_right.prototype.constructor = AutoHide_div_cz_up_right;
 
 
@@ -221,7 +217,6 @@ function AutoHide_div_cz_down(el,view_line_height,body_color,head_color,fixedIco
 }
 
 AutoHide_div_cz_down.prototype = new AutoHide_div_cz();
-AutoHide_div_cz_down.prototype.AutoHide_div_cz_prototype = AutoHide_div_cz_down.prototype.constructor.prototype;
 AutoHide_div_cz_down.prototype.constructor = AutoHide_div_cz_down;
 
 AutoHide_div_cz_down.prototype.get_show_css = function()
@@ -241,7 +236,6 @@ function AutoHide_div_cz_down_left({el,view_line_height,body_color,head_color,fi
 	AutoHide_div_cz_down.call(this, el,view_line_height,body_color,head_color,fixedIcon_bgcolor,active_fixedIcon_bgcolor);
 }
 AutoHide_div_cz_down_left.prototype = new AutoHide_div_cz_down();
-AutoHide_div_cz_down_left.prototype.AutoHide_div_cz_down_prototype = AutoHide_div_cz_down_left.prototype.constructor.prototype;
 AutoHide_div_cz_down_left.prototype.constructor = AutoHide_div_cz_down_left;
 
 
@@ -260,7 +254,6 @@ function AutoHide_div_cz_down_right({el,view_line_height,body_color,head_color,f
 	AutoHide_div.call(this, el,view_line_height,body_color,head_color,fixedIcon_bgcolor,active_fixedIcon_bgcolor);
 }
 AutoHide_div_cz_down_right.prototype = new AutoHide_div_cz_down();
-AutoHide_div_cz_down_right.prototype.AutoHide_div_cz_down_prototype = AutoHide_div_cz_down_right.prototype.constructor.prototype;
 AutoHide_div_cz_down_right.prototype.constructor = AutoHide_div_cz_down_right;
 
 
@@ -284,7 +277,6 @@ function AutoHide_div_sp(el,view_line_height,body_color,head_color,fixedIcon_bgc
 }
 
 AutoHide_div_sp.prototype = new AutoHide_div();
-AutoHide_div_sp.prototype.AutoHide_div_prototype = AutoHide_div_sp.prototype.constructor.prototype;
 AutoHide_div_sp.prototype.constructor = AutoHide_div_sp;
 
 AutoHide_div_sp.prototype.init = function()
@@ -303,7 +295,6 @@ function AutoHide_div_sp_left(el,view_line_height,body_color,head_color,fixedIco
 }
 
 AutoHide_div_sp_left.prototype = new AutoHide_div_sp();
-AutoHide_div_sp_left.prototype.AutoHide_div_sp_prototype = AutoHide_div_sp_left.prototype.constructor.prototype;
 AutoHide_div_sp_left.prototype.constructor = AutoHide_div_sp_left;
 
 
@@ -333,7 +324,6 @@ function AutoHide_div_sp_left_down({el,view_line_height,body_color,head_color,fi
 }
 
 AutoHide_div_sp_left_down.prototype = new AutoHide_div_sp_left();
-AutoHide_div_sp_left_down.prototype.AutoHide_div_sp_down_prototype = AutoHide_div_sp_left_down.prototype.constructor.prototype;
 AutoHide_div_sp_left_down.prototype.constructor = AutoHide_div_sp_left_down;
 
 
@@ -357,7 +347,6 @@ function AutoHide_div_sp_left_up({el,view_line_height,body_color,head_color,fixe
 }
 
 AutoHide_div_sp_left_up.prototype = new AutoHide_div_sp_left();
-AutoHide_div_sp_left_up.prototype.AutoHide_div_sp_down_prototype = AutoHide_div_sp_left_up.prototype.constructor.prototype;
 AutoHide_div_sp_left_up.prototype.constructor = AutoHide_div_sp_left_up;
 
 
@@ -381,7 +370,6 @@ function AutoHide_div_sp_right(el,view_line_height,body_color,head_color,fixedIc
 }
 
 AutoHide_div_sp_right.prototype = new AutoHide_div_sp();
-AutoHide_div_sp_right.prototype.AutoHide_div_sp_prototype = AutoHide_div_sp_right.prototype.constructor.prototype;
 AutoHide_div_sp_right.prototype.constructor = AutoHide_div_sp_right;
 
 
@@ -411,7 +399,6 @@ function AutoHide_div_sp_right_down({el,view_line_height,body_color,head_color,f
 }
 
 AutoHide_div_sp_right_down.prototype = new AutoHide_div_sp_right();
-AutoHide_div_sp_right_down.prototype.AutoHide_div_sp_down_prototype = AutoHide_div_sp_right_down.prototype.constructor.prototype;
 AutoHide_div_sp_right_down.prototype.constructor = AutoHide_div_sp_right_down;
 
 
@@ -435,7 +422,6 @@ function AutoHide_div_sp_right_up({el,view_line_height,body_color,head_color,fix
 }
 
 AutoHide_div_sp_right_up.prototype = new AutoHide_div_sp_right();
-AutoHide_div_sp_right_up.prototype.AutoHide_div_sp_down_prototype = AutoHide_div_sp_right_up.prototype.constructor.prototype;
 AutoHide_div_sp_right_up.prototype.constructor = AutoHide_div_sp_right_up;
 
 
